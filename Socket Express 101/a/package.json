@@ -1,0 +1,14 @@
+{
+  "name": "my-first-package",
+  "version": "1.0.0",
+  "description": "this is my very 1st package.json file",
+  "main": "basics.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CHRIS",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

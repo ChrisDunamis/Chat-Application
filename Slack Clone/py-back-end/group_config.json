@@ -1,0 +1,47 @@
+{
+    "1": {
+        "active": true,
+        "name": "fun",
+        "logo": "http://localhost:8000/resources/ns/fun.svg",
+        "rooms": [{
+            "id": 1,
+            "name": "party"
+        }, {
+            "id": 2,
+            "name": "movie"
+        }, {
+            "id": 3,
+            "name": "sports"
+        }]
+    },
+    "2": {
+        "active": true,
+        "name": "college",
+        "logo": "http://localhost:8000/resources/ns/science.svg",
+        "rooms": [{
+            "id": 1,
+            "name": "exam"
+        }, {
+            "id": 2,
+            "name": "course-material"
+        }, {
+            "id": 3,
+            "name": "assignments"
+        }]
+    },
+    "3": {
+        "active": true,
+        "name": "office",
+        "logo": "http://localhost:8000/resources/ns/office.svg",
+        "rooms": [{
+            "id": 1,
+            "name": "meetings"
+        }, {
+            "id": 2,
+            "name": "accounts"
+        }, {
+            "id": 3,
+            "name": "sales"
+        }]
+    }
+}

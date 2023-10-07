@@ -1,0 +1,18 @@
+{
+    "Name": "Chat Application",
+    "Version": "1.0.0",
+    "Description": "this is my very 1st package.json file",
+    "Main": "basics.js",
+    "Scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "Author": "MR CHRIS NKEM NKEM-IKE",
+    "Student Number": "1824861",
+    "Institute": "The University of Wolverhampton",
+    "Course": "BSc (Hons) Artificial Intelligence and Robotics with Foundation Year",
+    "Module": "4CS017: Internet Software Architecture/UM1",
+    "License": "ISC",
+    "Dependencies": {
+        "Express": "^4.17.1"
+    }
+}

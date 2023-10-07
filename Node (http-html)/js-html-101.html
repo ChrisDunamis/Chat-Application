@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<script>console.log("outside html", 2+2); </script>
+<html lang="en">
+    <script>console.log("inside html"); </script>
+    <head>
+        <script>console.log("inside html->head"); </script>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Our application CSS -->
+        <!-- <link rel="stylesheet" type="text/css" href="./styles.css"> -->
+
+        <title>SLAKe!</title>
+    </head>
+
+<body>
+    <script>console.log("inside html->body"); </script>
+    <h1 style="background-color: brown;">Let us write something here</h1>
+    <div>
+        My DIV
+    </div>
+    <p class="my-css-class" style="background-color: yellow;"> The Paragraph </p>
+    <input id="element-identifier" type="text" value="Change Me"></input>
+    <input type="password"> </input>
+    <table style="table-layout: auto; border-style: dotted; border-color: black;">
+        <tr>
+            <td> Column 1 header </td>
+            <td> Column 2 header</td>
+        </tr>
+        <tr>
+            <td> Column 1 content</td>
+            <td> Column 2 content</td>
+        </tr>
+    </table>
+    <hr style="border-top: 5px solid #000;">
+    <ul class="namespaces-list">
+        <li> Element-1 </li>
+        <li> Element-2 </li>
+        <li> Element-3 </li>
+    </ul>
+</body>
+    <script>console.log("inside html->outside body"); </script>
+</html>
+<script>console.log("after html"); </script>
